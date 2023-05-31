@@ -29,8 +29,10 @@
 - Make sure VITE_API_BASE_URL key in backend/.env is set to your Laravel API host (Default: http://localhost:8000)
 - Run npm run dev
 - Open Vue.js Admin Panel in browser and login with
+```
 admin@example.com
 admin123
+```
 
 ## About Laravel
 
