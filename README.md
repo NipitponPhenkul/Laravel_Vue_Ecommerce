@@ -7,6 +7,31 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Installation
+### Install Laravel Website + API
+- Download and Install Composer in your Computer
+- Download the project (or clone using GIT)
+- Copy .env.example into .env and configure database credentials
+- Navigate to the project's root directory using terminal
+- Run composer install
+- Set the encryption key by executing php artisan key:generate --ansi
+- Run migrations php artisan migrate --seed
+- Start local server by executing php artisan serve
+- Open new terminal and navigate to the project root directory
+- Run npm install
+- Run npm run dev to start vite server for Laravel frontend
+
+### Install Vue.js Admin Panel
+- Download and Install Nodejs in your Computer
+- Navigate to backend folder
+- Run npm install
+- Copy backend/.env.example into backend/.env
+- Make sure VITE_API_BASE_URL key in backend/.env is set to your Laravel API host (Default: http://localhost:8000)
+- Run npm run dev
+- Open Vue.js Admin Panel in browser and login with
+admin@example.com
+admin123
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
